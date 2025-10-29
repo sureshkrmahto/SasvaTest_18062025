@@ -1,0 +1,5 @@
+mappings:
+  server.tomcat.max-threads: server.tomcat.threads.max
+  server.tomcat.min-spare-threads: server.tomcat.threads.min-spare
+remove:
+  spring.mvc.pathmatch.matching-strategy: true
